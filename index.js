@@ -4,7 +4,7 @@ function deli(){
 
 deliLine.push(newPerson)
 return "Welcome, " + newPerson + ". You are number #"+ deliLine+ " in line"
-  takeANumber.push(katzDeliLine, "Ada")
+  deliLine.push(katzDeliLine, "Ada")
 
 
 }
