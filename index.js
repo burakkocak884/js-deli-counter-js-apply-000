@@ -22,6 +22,6 @@ function nowServing(deliLine){
       for (var i =0; i<=deliLine.length-1; i++){
         lineEmpty +=String(i+1)+ ". "+deliLine[i]+", "
       }
-      return lineEmpty.slice(0, lineEmpty.length-1)
+      return lineEmpty.slice(0, lineEmpty.length-2)
       }
     }
