@@ -25,4 +25,3 @@ function nowServing(deliLine){
       return lineEmpty.slice(0, lineEmpty.length-1)
       }
     }
-  
