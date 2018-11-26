@@ -4,7 +4,7 @@ var katzDeliLine =[]
 
 deliLine.push(newPerson)
 
-return "Welcome, " + newPerson + ". You are number "+ deliLine+ " in line"
+return "Welcome, " + newPerson + ". You are number "+ deliLine.length + " in line"
 
 
 }
