@@ -13,6 +13,16 @@ function nowServing(deliLine){
 }else {
   return "Currently serving "+ deliLine.shift() + "."
 }
-
-
   }
+  function currentLine(deliLine){
+    if (deliLine.length ===0)
+    return "The line is currently empty."
+    else {
+      var lineEmpty = "This line is currently:"
+      for (var i =0; i<=deliLine.length-1; i++){
+        lineEmpty +=String(i+1)+ "."+deliLine[i]+","
+      }
+      return lineEmpty.slice(0, lineEmpty.length-1)
+      }
+    }
+  
